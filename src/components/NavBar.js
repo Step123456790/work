@@ -1,4 +1,4 @@
-import './NavBar.css';
+import './css/NavBar.css';
 import Search from './Search';
 import BLang from './BLang';
 

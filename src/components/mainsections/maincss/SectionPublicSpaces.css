@@ -1,0 +1,88 @@
+.SectionPublicSpaces {
+    width: 1110px;
+    margin: 100px auto;
+    z-index: 2;
+}
+
+.SectionPublicSpaces_text {
+    width: 100%;
+}
+.SectionPublicSpaces_text h2 {
+    text-align: center;
+    font-size: 29px;
+    margin: 0 auto 30px auto;
+}
+.SectionPublicSpaces_text p {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto 60px auto;
+}
+
+
+.SectionPublicSpaces_container {
+    display: grid;
+    grid-template-columns: calc(1110px / 3) calc(1110px / 3) calc(1110px / 3);
+}
+
+.SectionPublicSpaces_content {
+    position: relative;
+    margin: 0 10px;
+    
+    height: calc(1110px / 3);
+}
+.SectionPublicSpaces_content img {
+    position: absolute;
+    height: calc(1110px / 3 - 20px);
+    width: calc(1110px / 3 - 20px);
+}
+.SectionPublicSpaces_content p {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 18%;
+    bottom: 20px;
+    background-color: rgba(100, 84, 84, 0.7);
+}
+
+.SectionPublicSpaces_content-lift__container {
+    position: absolute;
+    z-index: 2;
+    overflow: hidden;
+    height: 283.745px;
+    width: calc(1110px / 3 - 20px); 
+}
+
+.SectionPublicSpaces_content-lift {
+    position: absolute;
+    height: 283.745px;
+    bottom: -283.745px;
+    width: calc(1110px / 3 - 20px); 
+    background: rgba(100, 84, 84, 0.7);
+    transition: all .8s;
+}
+
+.SectionPublicSpaces_content-lift a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35%;
+}
+.SectionPublicSpaces_content-lift span {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.SectionPublicSpaces_content:hover .SectionPublicSpaces_content-lift {
+    bottom: -0px;
+}

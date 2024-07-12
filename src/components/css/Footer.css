@@ -1,0 +1,128 @@
+@media screen and (width > 1200px) {
+
+   footer {
+      display: flex;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 706.3px;
+   }
+
+   .Footer_leftPart {
+      height: 100%;
+      width: 41.5%;
+
+      background: green;
+   }
+
+   .Footer_leftPart-container {
+      width: 350px;
+      height: 131.458px;
+      padding: 65.62px 0 61.25px 0;
+      margin: 0 83.125px 0 auto;
+   }
+   .Footer_leftPart-container h3 {
+      display: flex;
+      margin-bottom: 7px;
+      width: 100%;
+
+      font-size: 23px;
+      color: #fff;
+   }
+   .Footer_leftPart-container p {
+      display: flex;
+      margin-bottom: 14px;
+      width: 100%;
+
+      font-size: 18px;
+      color: #fff;
+   }
+   .Footer_leftPart-container a {
+      display: flex;
+      padding: 10.5px;
+      justify-content: center;
+      align-items: center;
+      width: 327.5px;
+
+      text-decoration: none;
+      color: #fff;
+      font-size: 19px;
+
+      background: #383b37;
+   }
+   .Footer_leftPart-container a:hover {
+      background: orange;
+   }
+
+   .Footer_rightPart {
+      height: 100%;
+      width: 58.5%;
+
+      background: rgb(136, 148, 102);
+   }
+
+   .Footer_rightPart-container {
+      width: 600px;
+      height: 504.1638px;
+      padding: 65.62px 0 61.25px 0;
+      margin-left: 52.5px;
+      margin-top: 23px;
+   }
+
+
+   .Footer_rightPart-container-row {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+   }
+
+
+   .Footer_rightPart-container-row div {
+      height: 215.4569px;
+      padding-bottom: 48.125px;
+   }
+
+   .Footer_rightPart-content {
+      padding: 0 15px;
+   }
+   .Footer_rightPart-content h3, h4, p, a {
+      color: #000;
+   }
+   .Footer_rightPart-content h3 {
+      margin: 0 0 15.75px 0;
+      font-size: 22px;
+   }
+   .Footer_rightPart-content h4, p {
+      margin: 0 0 8.75px 0;
+   }
+   .Footer_rightPart-content h4 {
+      font-size: 17px;
+   }
+   .Footer_rightPart-content p {
+      font-size: 17px;
+   }
+   .Footer_rightPart-content a {
+      font-size: 17px;
+      padding-bottom: 5px;
+   }
+
+
+
+
+
+
+   .Footer_rightPart-socials {
+      display: flex;
+      width: 100%;
+      height: 7.4%;
+      justify-content: center;
+      align-items: center;
+
+
+   }
+
+   .Footer_rightPart-socials-icons {
+      width: 25px;
+      height: 100%;
+      padding: 0 10px;
+   }
+}

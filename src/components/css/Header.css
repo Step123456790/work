@@ -1,0 +1,57 @@
+@media screen and (width > 1200px) {
+    
+    header {
+        width: calc(100vw - 20px);
+        height: calc(100vh - 95px);
+        margin: 95px 10px 0 10px;
+
+
+        background-color: #433e3e;
+    }
+
+    header h1 {
+        display: block;
+        width: 825px;
+        height: 211.75px;
+        padding: 5% 0 0 15%;
+
+        font-size: 96.25px;
+        font-weight: 900;
+        color: white;
+    }
+
+    .Header_circle-link {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        right: 200px;
+        bottom: -150px;
+
+        background: green;
+        text-decoration: none;
+    }
+    .Header_circle-link div p {
+        width: 100%;
+        font-size: 75px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    .Header_circle-link div p + p {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+        color: #ffffff;
+    }
+
+
+}
