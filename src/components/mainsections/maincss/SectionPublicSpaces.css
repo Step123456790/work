@@ -62,7 +62,7 @@
     bottom: -283.745px;
     width: calc(1110px / 3 - 20px); 
     background: rgba(100, 84, 84, 0.7);
-    transition: all .8s;
+    transition: all .46s;
 }
 
 .SectionPublicSpaces_content-lift a {
