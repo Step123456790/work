@@ -52,14 +52,14 @@
     position: absolute;
     z-index: 2;
     overflow: hidden;
-    height: 283.745px;
+    height: 283px;
     width: calc(1110px / 3 - 20px); 
 }
 
 .SectionPublicSpaces_content-lift {
     position: absolute;
-    height: 283.745px;
-    bottom: -283.745px;
+    height: 283px;
+    bottom: -283px;
     width: calc(1110px / 3 - 20px); 
     background: rgba(100, 84, 84, 0.7);
     transition: all .46s;

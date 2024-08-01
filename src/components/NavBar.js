@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import './css/NavBar.css';
 import Search from './Search';
 import BLang from './BLang';
@@ -10,7 +12,7 @@ function NavBar() {
                <p>LOGO</p>
             </a>
             <div className='NavBar_center_menu'>
-               <a href="#d">PRODUCTS</a>
+               <Link to={'/products'} >PRODUCTS</Link>
                <a href="#d">PLACEMAKING</a>
                <a href="#d">ABOUT</a>
             </div>

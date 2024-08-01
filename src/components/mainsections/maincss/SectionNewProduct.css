@@ -1,0 +1,65 @@
+.SectionNewProduct {
+    position: relative;
+    width: 1110px;
+    margin: 100px auto;
+    z-index: 2;
+
+    height: 570.6px;
+}
+
+.SectionNewProduct img {
+    width: 1110px;
+    height: 570.6px;
+}
+
+.SectionNewProduct h2 {
+    position: absolute;
+    top: 0;
+    margin: 65px;
+    width: calc(1110px / 2.5);
+
+    color: white;
+    font-size: 70px;
+}
+
+.SectionNewProduct div {
+    position: absolute;
+    bottom: 0;
+    margin: auto auto 0 65px;
+    width: calc(1110px / 2.7);
+    height: 230px;
+
+    background-color: white;
+    font-size: 70px;
+}
+
+.SectionNewProduct-p {
+    font-size: 19px;
+    margin: 30px 30px 0 30px;
+}
+
+.SectionNewProduct-link {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.SectionNewProduct-link-p {
+    font-size: 20px;
+    padding: 0;
+    margin: 0 0 0 30px;
+}
+
+.SectionNewProduct-link-icons {
+    height: 30px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    transition: all .4s;
+}
+
+.SectionNewProduct-link:hover .SectionNewProduct-link-icons {
+    margin: 0 auto 0 20px;
+}
